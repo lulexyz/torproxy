@@ -3,7 +3,6 @@
 ## 部署
 linux下，只需一条命令即可
 ```bash
-sudo ./init.sh 1234 5            #在1234端口开启5个socks5代理，通过端口1234轮换访问，无认证
 sudo ./init.sh 1234 5 user pass   #在1234端口开启5个socks5代理，需要帐号密码认证，帐号密码为: user/pass
 ```
 ## 测试
